@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Para centrar horizontalmente */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Estilos específicos para la sección Home */
+#Home {
+  display: flex; /* Para centrar verticalmente */
+  justify-content: center; /* Para centrar horizontalmente */
+  align-items: center; /* Para centrar verticalmente */
+  flex-direction: column; /* Para alinear el contenido verticalmente */
+}
+
+#Home .content {
+  text-align: center;
+}
+
+#Home h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+#Home p {
+  color: #666;
+}
+
+/* Estilos para las imágenes */
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.flower-image {
+  border: 2px solid #333;
+  margin: 0 10px;
+  width: 300px;
+  height: auto;
+}
+
+.flower-images {
+  border: 2px solid #333;
+  margin: 0 10px;
+  width: 150px;
+  height: 200px;
+}
